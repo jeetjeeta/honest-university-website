@@ -1,0 +1,42 @@
+.guImage2 img{
+	width: 13rem;
+	height: 18rem;
+
+}
+
+.guImage2{
+	display: flex;
+	justify-content: space-around;
+}
+
+.imageSection{
+	background-color: rgb(15, 72, 0,.3);
+	padding: 1rem;
+	color: 
+}
+
+.anchor{
+	display: block;
+  height: 4rem; /*same height as header*/
+  margin-top: -4rem; /*same height as header*/
+  /*visibility: hidden;*/
+}
+
+@media only screen and (max-width: 700px) and (min-width: 400px)
+{
+	.guImage2 img{
+	width: 7.2rem; /* .7 * 13rem */
+	height: 10.8rem; /* .7 * 18rem   */
+	}
+}
+
+
+
+@media only screen and (max-width: 400px)
+{
+	.guImage2 img{
+	width: 6.5rem; /* .5 * 13rem */
+	height: 9rem; /* .5 * 18rem   */
+
+}
+}

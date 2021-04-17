@@ -1,0 +1,77 @@
+.regularBtn{
+	background-color: rgb(99, 98, 81);
+	color: white;
+	cursor: pointer;
+	margin: 1rem;
+}
+
+.regularBtn:hover{
+	background-color: rgb(44, 43, 22);
+}
+
+.flexAttendance{
+	display: flex;
+	/*justify-content: center;*/
+	justify-content: space-between;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.attendance{
+	padding: 1rem;
+	background-color: rgb(34, 102, 102,.2);
+}
+
+.nextAttendance{
+	margin-left: 0;
+
+}
+
+.none{
+	display: none;
+}
+
+.attendanceHidden{
+	visibility: hidden;
+	opacity: 0;
+	transition: .5s ease-in-out;
+	width: 0;
+
+}
+
+.attendanceVisible{
+	visibility: visible;
+	opacity: 1;
+	transition: .5s ease-in-out;
+	width: 60%;
+}
+
+.oHidden{
+	overflow-x: hidden;
+}
+
+.attendanceSumVisible{
+	visibility: visible;
+	opacity: 1;
+	transition: .5s ease-in-out;
+	width: 100%;
+}
+
+.attendanceFont{
+	font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 700px) and (min-width: 400px)
+{
+	.afterNextSubject{
+		font-size: .9rem;
+	}
+}
+
+
+@media only screen and (max-width: 400px)
+{
+	.afterNextSubject{
+		font-size: .8rem;
+	}
+}

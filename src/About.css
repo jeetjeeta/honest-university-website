@@ -1,0 +1,12 @@
+.about{
+	font-family: 'Open Sans', sans-serif;
+	background-color: rgb(42, 50, 87,.5);
+	background-color: rgb(117, 200, 130,.9);
+	color: white;
+	margin: 0;
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+.about span{
+	color: rgb(240,240,100);
+}

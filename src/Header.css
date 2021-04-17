@@ -1,0 +1,80 @@
+.heading{
+	color: #932432;
+	font-family: "Times New Roman";
+	padding-top: 7rem;
+	padding-bottom: 3rem;
+	margin: 0;
+	
+}
+
+.fL{
+	
+}
+
+.guImage{
+	width: 100px;
+	height: 100px;
+	padding-top: 7rem;
+	padding-bottom: 4rem;
+	margin: 0;
+	position: relative;
+	bottom: 1rem;
+	padding-right: 1rem;
+}
+
+.HeadingAndImage{
+	display: flex;
+	justify-content: center;
+	background-color: rgb(217, 193, 240,.5)
+}
+
+.Navigation{
+	background: linear-gradient(to right, rgb(77, 153, 77), rgb(70, 164, 136));
+	color: white;
+	display: flex;
+	padding: 1.5rem 0.5rem;
+	margin: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	justify-content: space-around;
+	z-index: 10;
+}
+
+
+.Navigation a{
+	text-decoration: none;
+	color: white;
+	padding: 0 0.5rem;
+	margin: 0;
+}
+
+.Navigation a:hover{
+	color: rgb(235, 240, 193);
+}
+
+
+@media only screen and (max-width: 700px) and (min-width: 400px)
+{
+	.f-5{
+		font-size: 4.4rem !important;
+	}
+}
+
+@media only screen and (max-width: 400px)
+{
+	.f-5{
+		font-size: 3rem !important;
+	}
+
+	.guImage{
+		width: 80px;
+		height: 80px;
+	}
+
+	.Navigation a{
+		font-size: .9rem;
+	}
+
+}
+
